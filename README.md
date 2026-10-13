@@ -1,6 +1,6 @@
 # Ali Ertaza — Engineering Portfolio
 
-A responsive editorial portfolio with a warm off-white, navy, and teal theme, built with React, TypeScript, Vite, Tailwind CSS v4, and Lucide icons. Featured projects use architecture diagrams, and capability links connect skills to project evidence.
+A responsive editorial portfolio with a dark navy, cyan, and violet theme, built with React, TypeScript, Vite, Tailwind CSS v4, and Lucide icons. Featured projects use architecture diagrams, and capability links connect skills to project evidence.
 
 ## Requirements
 - Node.js 20.19+ or 22.12+ recommended
