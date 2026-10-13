@@ -6,3 +6,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 
 .whatsapp-contact{position:fixed;right:24px;bottom:24px;z-index:5;display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:14px 18px;background:#146c43;color:#fff;border-radius:30px;box-shadow:0 4px 18px #14253625;font-size:13px;font-weight:700;transition:background .2s,transform .2s}.whatsapp-contact:hover{background:#105735;transform:translateY(-2px)}@media(max-width:720px){.whatsapp-contact{right:16px;bottom:16px;width:54px;height:54px;padding:0}.whatsapp-contact span{display:none}.footer{padding-bottom:85px}}
+
+.alternate-resumes{display:flex;flex-wrap:wrap;gap:0 24px}

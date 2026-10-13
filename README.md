@@ -48,7 +48,7 @@ Vercel should use `production` as its Production Branch and deploy previews for 
 1. **Email:** Contact links use `aliertaza104@gmail.com` in `src/App.tsx`.
 2. **LinkedIn:** The About section links to https://www.linkedin.com/in/ali-ertaza-846972270/.
 3. **Project evidence:** Add screenshots, demos, and public repository links only when you are ready to share them. Supreme Services currently has no repository link shown because one was not provided.
-4. **Resume:** Both supplied PDFs are in `public/resumes/`. The data view downloads the data engineering CV; other views download the general resume. Both are available from the complete portfolio.
+4. **Resume:** Resume PDFs are in `public/resumes/`. The data view uses the data engineering CV, the Android view uses the Android developer resume, and the web and complete views use the general resume.
 5. **Accuracy:** Project statuses and descriptions are intentionally cautious. Update them when the current project state changes.
 6. **Contact form:** This starter uses an email link, not a backend form. Connect a form provider or backend if you need message submissions on the site.
 
