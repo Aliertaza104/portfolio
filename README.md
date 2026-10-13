@@ -24,6 +24,25 @@ npm run preview
 
 The production output is generated in `dist/`.
 
+## Trunk-based workflow
+
+`production` is the shared trunk and the GitHub default branch. Create small, short-lived feature branches from it and merge through pull requests. The required `Build` check installs the locked dependencies, checks TypeScript, and builds the portfolio on Node.js 22. Pull requests must be up to date with the trunk and have their review conversations resolved. A second-person approval is optional for this solo-maintained repository.
+
+```bash
+git switch production
+git pull --ff-only
+git switch -c feature/update-projects
+# Make changes, then run npm run build.
+git add .
+git commit -m "Update portfolio projects"
+git push -u origin feature/update-projects
+gh pr create --base production
+```
+
+Review the Vercel preview and the build result, then squash-merge the pull request. Merged feature branches are deleted automatically. Direct pushes, force pushes, and deletion of `production` are blocked by the repository ruleset. The former long-lived `development` branch is retired.
+
+Vercel should use `production` as its Production Branch and deploy previews for feature branches through the Git integration. This project uses the Git integration rather than a second deployment workflow in GitHub Actions. Deployment commands and the `dist` output directory are set in `vercel.json`.
+
 ## Personalize before publishing
 
 1. **Email:** Contact links use `aliertaza104@gmail.com` in `src/App.tsx`.
