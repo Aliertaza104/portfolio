@@ -4,7 +4,6 @@ import {
   ChevronDown, Code2, Database, Download, Github, Linkedin, Mail, Menu, Smartphone,
   Terminal, X, Zap,
 } from 'lucide-react'
-import { SpeedInsights } from '@vercel/speed-insights/react'
 
 import { projects } from './projects'
 import { organizations } from './organizations'
@@ -65,7 +64,6 @@ function App() {
 
   return (
     <div className="site-shell">
-      <SpeedInsights />
       <div className="ambient ambient-one" /><div className="ambient ambient-two" />
       <header className="topbar">
         <a className="brand" href="#home" aria-label="Ali Ertaza home"><img className="brand-icon" src="/portfolio-icon-transparent.png" alt="Ali Ertaza portfolio" width="44" height="44" /><span className="brand-caption">ENGINEERING PORTFOLIO</span></a>
