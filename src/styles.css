@@ -18,4 +18,3 @@ body{background:radial-gradient(ellipse at 75% 7%,#11303945,transparent 30%),rad
 @media(prefers-reduced-motion:reduce){.signal-path{animation:none}.blueprint:hover .blueprint-node,.visual-button:hover .flow-node{transform:none}}
 
 .blueprint{overflow:clip}
-
