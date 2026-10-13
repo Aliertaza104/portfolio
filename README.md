@@ -1,6 +1,6 @@
 # Ali Ertaza — Engineering Portfolio
 
-A responsive dark, futuristic personal portfolio built with React, TypeScript, Vite, Tailwind CSS v4, and Lucide icons.
+A responsive editorial portfolio with a warm off-white, navy, and teal theme, built with React, TypeScript, Vite, Tailwind CSS v4, and Lucide icons. Featured projects use architecture diagrams, and capability links connect skills to project evidence.
 
 ## Requirements
 - Node.js 20.19+ or 22.12+ recommended
@@ -56,7 +56,7 @@ Vercel should use `production` as its Production Branch and deploy previews for 
 
 ```text
 src/
-  App.tsx       Main page, project data, filters, and project detail modal
+  App.tsx       Editorial page, specialty views, capability evidence, and accessible project dialogs
   main.tsx      React entry point
   styles.css    Responsive design and Tailwind import
 index.html      Metadata and font loading

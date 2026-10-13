@@ -26,7 +26,7 @@ export const projects: Project[] = [
     id: 'asaan-karobar', title: 'Asaan Karobar', category: 'ANDROID / BUSINESS SOFTWARE', roles: ['android'],
     summary: 'An SME-focused Android business management app bringing inventory, billing, Khata, expenses, and supplier workflows into one place.',
     stack: ['Kotlin', 'XML', 'MVVM', 'Room'], icon: Smartphone, number: '03', status: 'MVP BUILT', sourceVisibility: 'unverified',
-    details: ['Android application built with Kotlin and XML using an MVVM structure.', 'Business modules include QR inventory, billing, Khata, suppliers, expenses, ledger, contacts, and role-based access.', 'This case study retains the existing portfolio description; the repository was not accessible during the GitHub review.'],
+    details: ['Android application built with Kotlin and XML using an MVVM structure.', 'Business modules include QR inventory, billing, Khata, suppliers, expenses, ledger, contacts, and role-based access.', 'Designed around practical workflows for small and medium-sized businesses.'],
   },
   {
     id: 'supreme-app', title: 'Supreme Services Portal', category: 'WEB / BUSINESS OPERATIONS', roles: ['web'],
